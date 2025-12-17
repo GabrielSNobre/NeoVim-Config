@@ -1,3 +1,4 @@
+
 return {
   {
     'saghen/blink.cmp',
@@ -44,6 +45,9 @@ return {
         }
       })
       lspconfig('html',{
+          capabilities = capabilities,
+      })
+      lspconfig('ts_ls',{
         capabilities = capabilities,
       })
 
