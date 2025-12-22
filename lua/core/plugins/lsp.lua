@@ -50,6 +50,9 @@ return {
       lspconfig('ts_ls',{
         capabilities = capabilities,
       })
+      lspconfig('clangd',{
+        capabilities = capabilities,
+      })
     vim.lsp.enable("lua_ls")
     end
   },
