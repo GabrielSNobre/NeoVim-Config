@@ -1,4 +1,3 @@
-
 return {
   {
     'saghen/blink.cmp',
