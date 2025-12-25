@@ -79,6 +79,7 @@ function M.setup(opts)
 
   -- sair do terminal com esc
   vim.keymap.set("t", "<Esc>", [[<C-\><C-n>]])
+  vim.keymap.set("t", "jk", [[<C-\><C-n>]])
 end
 
 return M
