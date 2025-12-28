@@ -15,7 +15,7 @@ return{
             require('mini.pick').setup()
         end
     },
-    {
+    --[[{
         'nvim-mini/mini.statusline',
         version = '*',
         opts = {
@@ -23,5 +23,5 @@ return{
                 require('mini.statusline').setup()
             end
         }
-    },
+    },]]
 }
