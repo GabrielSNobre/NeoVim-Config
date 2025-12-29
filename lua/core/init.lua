@@ -2,6 +2,11 @@ require("core.keymaps")
 require("core.diagnostics")
 require("core.options")
 require("core.lazy")
-vim.cmd [[colorscheme retrobox]]
-vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
-vim.cmd("hi EndOfBuffer guibg=NONE ctermbg=NONE")
+vim.cmd [[colorscheme habamax]]
+vim.cmd [[
+  highlight Normal guibg=none
+  highlight NonText guibg=none
+  highlight Normal ctermbg=none
+  highlight NonText ctermbg=none
+]]
+
